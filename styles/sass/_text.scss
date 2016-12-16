@@ -9,6 +9,9 @@
 .text--right {
   text-align: right;
 }
+.text--justify {
+  text-align: justify;;
+}
 
 // Responsive classes
 
@@ -26,6 +29,11 @@
   .text--right_#{$key} {
     @include media-query(#{$key}) {
       text-align: right;
+    }
+  }
+  .text--justify_#{$key} {
+    @include media-query(#{$key}) {
+      text-align: justify;
     }
   }
 }

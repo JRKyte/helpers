@@ -45,6 +45,9 @@
 .text--right {
   text-align: right; }
 
+.text--justify {
+  text-align: justify; }
+
 @media only screen and (min-width: 544px) {
   .text--center_micro {
     text-align: center; } }
@@ -56,6 +59,10 @@
 @media only screen and (min-width: 544px) {
   .text--right_micro {
     text-align: right; } }
+
+@media only screen and (min-width: 544px) {
+  .text--justify_micro {
+    text-align: justify; } }
 
 @media only screen and (min-width: 768px) {
   .text--center_small {
@@ -69,6 +76,10 @@
   .text--right_small {
     text-align: right; } }
 
+@media only screen and (min-width: 768px) {
+  .text--justify_small {
+    text-align: justify; } }
+
 @media only screen and (min-width: 992px) {
   .text--center_medium {
     text-align: center; } }
@@ -81,6 +92,10 @@
   .text--right_medium {
     text-align: right; } }
 
+@media only screen and (min-width: 992px) {
+  .text--justify_medium {
+    text-align: justify; } }
+
 @media only screen and (min-width: 1200px) {
   .text--center_large {
     text-align: center; } }
@@ -92,6 +107,10 @@
 @media only screen and (min-width: 1200px) {
   .text--right_large {
     text-align: right; } }
+
+@media only screen and (min-width: 1200px) {
+  .text--justify_large {
+    text-align: justify; } }
 
 .float-right {
   float: right; }
