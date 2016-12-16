@@ -1,0 +1,9 @@
+// This generates the media-query mixins for use with responsive classes
+
+@mixin media-query($media-query) {
+  @each $key, $value in $breakpoints {
+    @if $media-query == $key {
+      @media only screen and (min-width:$value) { @content; }
+    }
+  }
+}

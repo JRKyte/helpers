@@ -1,0 +1,23 @@
+// Base classes
+
+.show {
+  display: initial;
+}
+.hide {
+  display: none;
+}
+
+// Responsive classes
+
+@each $key, $value in $breakpoints {
+  .show_#{$key} {
+    @include media-query(#{$key}) {
+      display: initial;
+    }
+  }
+  .hide_#{$key} {
+    @include media-query(#{$key}) {
+      display: none;
+    }
+  }
+}

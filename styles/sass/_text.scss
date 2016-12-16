@@ -1,0 +1,31 @@
+// Base classes
+
+.text--center {
+  text-align: center;
+}
+.text--left {
+  text-align: left;
+}
+.text--right {
+  text-align: right;
+}
+
+// Responsive classes
+
+@each $key, $value in $breakpoints {
+  .text--center_#{$key} {
+    @include media-query(#{$key}) {
+      text-align: center;
+    }
+  }
+  .text--left_#{$key} {
+    @include media-query(#{$key}) {
+      text-align: left;
+    }
+  }
+  .text--right_#{$key} {
+    @include media-query(#{$key}) {
+      text-align: right;
+    }
+  }
+}

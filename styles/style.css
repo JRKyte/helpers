@@ -1,0 +1,94 @@
+.show {
+  display: initial; }
+
+.hide {
+  display: none; }
+
+@media only screen and (min-width: 544px) {
+  .show_micro {
+    display: initial; } }
+
+@media only screen and (min-width: 544px) {
+  .hide_micro {
+    display: none; } }
+
+@media only screen and (min-width: 768px) {
+  .show_small {
+    display: initial; } }
+
+@media only screen and (min-width: 768px) {
+  .hide_small {
+    display: none; } }
+
+@media only screen and (min-width: 992px) {
+  .show_medium {
+    display: initial; } }
+
+@media only screen and (min-width: 992px) {
+  .hide_medium {
+    display: none; } }
+
+@media only screen and (min-width: 1200px) {
+  .show_large {
+    display: initial; } }
+
+@media only screen and (min-width: 1200px) {
+  .hide_large {
+    display: none; } }
+
+.text--center {
+  text-align: center; }
+
+.text--left {
+  text-align: left; }
+
+.text--right {
+  text-align: right; }
+
+@media only screen and (min-width: 544px) {
+  .text--center_micro {
+    text-align: center; } }
+
+@media only screen and (min-width: 544px) {
+  .text--left_micro {
+    text-align: left; } }
+
+@media only screen and (min-width: 544px) {
+  .text--right_micro {
+    text-align: right; } }
+
+@media only screen and (min-width: 768px) {
+  .text--center_small {
+    text-align: center; } }
+
+@media only screen and (min-width: 768px) {
+  .text--left_small {
+    text-align: left; } }
+
+@media only screen and (min-width: 768px) {
+  .text--right_small {
+    text-align: right; } }
+
+@media only screen and (min-width: 992px) {
+  .text--center_medium {
+    text-align: center; } }
+
+@media only screen and (min-width: 992px) {
+  .text--left_medium {
+    text-align: left; } }
+
+@media only screen and (min-width: 992px) {
+  .text--right_medium {
+    text-align: right; } }
+
+@media only screen and (min-width: 1200px) {
+  .text--center_large {
+    text-align: center; } }
+
+@media only screen and (min-width: 1200px) {
+  .text--left_large {
+    text-align: left; } }
+
+@media only screen and (min-width: 1200px) {
+  .text--right_large {
+    text-align: right; } }
