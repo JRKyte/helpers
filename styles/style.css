@@ -92,3 +92,41 @@
 @media only screen and (min-width: 1200px) {
   .text--right_large {
     text-align: right; } }
+
+.float-right {
+  float: right; }
+
+.float-left {
+  float: left; }
+
+@media only screen and (min-width: 544px) {
+  .float-right_micro {
+    float: right; } }
+
+@media only screen and (min-width: 544px) {
+  .float-left_micro {
+    float: left; } }
+
+@media only screen and (min-width: 768px) {
+  .float-right_small {
+    float: right; } }
+
+@media only screen and (min-width: 768px) {
+  .float-left_small {
+    float: left; } }
+
+@media only screen and (min-width: 992px) {
+  .float-right_medium {
+    float: right; } }
+
+@media only screen and (min-width: 992px) {
+  .float-left_medium {
+    float: left; } }
+
+@media only screen and (min-width: 1200px) {
+  .float-right_large {
+    float: right; } }
+
+@media only screen and (min-width: 1200px) {
+  .float-left_large {
+    float: left; } }

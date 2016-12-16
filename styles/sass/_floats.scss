@@ -1,0 +1,23 @@
+// Base classes
+
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+
+// Responsive classes
+
+@each $key, $value in $breakpoints {
+  .float-right_#{$key} {
+    @include media-query(#{$key}) {
+      float: right;
+    }
+  }
+  .float-left_#{$key} {
+    @include media-query(#{$key}) {
+      float: left;
+    }
+  }
+}
